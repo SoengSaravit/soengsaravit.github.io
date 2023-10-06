@@ -1,0 +1,13 @@
+version: '3'
+services:
+  nginx: 
+    image: nginx
+    container_name: nginx
+    volumes:
+      - ./zzxb-nginx.conf:/etc/nginx/conf.d/zzxb-nginx.conf
+      - ./zzxb:/usr/share/nginx/myfile
+      - ./let-encrypt:/usr/share/let-encrypt
+      - /etc/letsencrypt:/usr/share/letsencrypt
+    ports:
+      - 80:80
+      - 443:443
