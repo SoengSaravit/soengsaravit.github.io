@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="190" viewBox="0 0 360 190" fill="none">
+  <g transform="translate(26 24)">
+    <rect width="182" height="142" rx="12" fill="#e6edf5" stroke="#c6d3e3"/>
+    <path d="M0 43H182M0 100H182M42 0V142M121 0V142" stroke="#f8fafc" stroke-width="10"/>
+    <path d="M0 43H182M0 100H182M42 0V142M121 0V142" stroke="#cedae8" stroke-width="1"/>
+    <rect x="58" y="57" width="45" height="27" rx="4" fill="#d4dfed"/>
+    <rect x="137" y="13" width="29" height="17" rx="3" fill="#d4dfed"/>
+    <rect x="12" y="114" width="17" height="16" rx="3" fill="#d4dfed"/>
+    <path d="M42 119V100H121V69" stroke="#6586b8" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 5"/>
+    <circle cx="42" cy="119" r="4" fill="#f8fafc" stroke="#6586b8" stroke-width="2"/>
+    <path d="M142 40C142 55 121 73 121 73S100 55 100 40A21 21 0 0 1 142 40Z" fill="#315693" stroke="#edf1f8" stroke-width="3"/>
+    <circle cx="121" cy="40" r="7" fill="#edf1f8"/>
+  </g>
+  <rect x="221" y="51" width="112" height="91" rx="8" fill="#f8faff" stroke="#becde1"/>
+  <path d="M237 73H304M237 85H292M237 97H280" stroke="#b1c2d9" stroke-width="3" stroke-linecap="round"/>
+  <path d="M208 95H221" stroke="#8fa6c6" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="237" y="112" width="64" height="16" rx="4" fill="#e5ecf8"/>
+  <path d="M244 120L247 123L253 117" stroke="#315693" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="259" y="123" fill="#416493" font-family="Arial,sans-serif" font-size="8">Verified</text>
+</svg>

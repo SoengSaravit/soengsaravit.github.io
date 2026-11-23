@@ -1,262 +1,196 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Saravit Soeng | Applied AI Researcher</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Applied AI Researcher specializing in Computer Vision, Multimodal AI, Deep Learning, and Big Data." />
-    <meta name="keywords" content="AI Researcher, Computer Vision, Deep Learning, Machine Learning, Big Data, Multimodal AI, LLM, VLM, NLP" />
-    <meta name="author" content="Soeng Saravit" />
-    <meta property="og:title" content="Saravit Soeng | Applied AI Researcher"/>
-    <meta property="og:site_name" content="Saravit Soeng Portfolio"/>
-    <meta property="og:description" content="Applied AI Researcher specializing in Computer Vision, Multimodal AI, and Big Data"/>
-    <meta name="twitter:title" content="Saravit Soeng | Applied AI Researcher" />
-    <meta name="twitter:card" content="summary" />
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <meta name="theme-color" content="#f8fafc">
+    <title>Saravit Soeng | Applied AI Researcher</title>
+    <meta name="description" content="Saravit Soeng, Ph.D. Applied AI researcher specializing in computer vision, multimodal AI, and big data.">
+    <meta name="author" content="Saravit Soeng">
+    <meta property="og:title" content="Saravit Soeng | Applied AI Researcher">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Saravit Soeng — Applied AI researcher specializing in computer vision, multimodal AI, and big data.">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/portfolio.css?v=8cf98d6e7f">
+    <script src="js/portfolio.js?v=61c7f7ba19" defer></script>
 </head>
 <body>
-    <div class="bg-animation"></div>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">Saravit<span>.</span></div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#skills">Skills</a></li>
-            </ul>
-            <div class="menu-toggle"><span></span><span></span><span></span></div>
-        </div>
-    </nav>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <nav class="nav-container container" aria-label="Main navigation">
+            <a class="logo" href="#hero" aria-label="Saravit Soeng, home"><span class="logo-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>Saravit<span class="logo-period">.</span></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+            <div class="navigation" id="navigation">
+                <ul class="nav-links">
+                    <li><a href="#hero" aria-current="location">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+                <a class="nav-contact" href="#contact">Contact<span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H9l-4 3V5Z"/></svg></span></a>
+            </div>
+        </nav>
+    </header>
 
-    <section id="hero">
-        <div class="container">
+    <main id="main" tabindex="-1">
+        <section class="hero container" id="hero" aria-labelledby="hero-title">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Hi, I'm <span>Saravit Soeng</span></h1>
-                    <p class="subtitle">&lt; Applied AI Researcher /&gt;</p>
-                    <p>A quick learner and skilled researcher with 9+ years of software development experience and 5+ years in big data, machine learning, deep learning, IoT, and NLP. Ph.D. in Big Data from Chungbuk National University, South Korea.</p>
-                    <div class="research-interests">
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">Multimodal AI</span>
-                        <span class="tag">Big Data</span>
-                        <span class="tag">LLM</span>
-                        <span class="tag">VLM</span>
+                    <p class="eyebrow"><span class="small-line" aria-hidden="true"></span>Hello, I’m Saravit</p>
+                    <div class="hero-identity">
+                        <div>
+                            <h1 id="hero-title">Saravit Soeng</h1>
+                        </div>
                     </div>
-                    <div class="social-links">
-                        <a href="https://scholar.google.com/citations?user=SwXjpwwAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                        <a href="https://github.com/SoengSaravit" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/soeng-saravit/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://twitter.com/saravit_soeng" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/S.Saravit" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <p class="hero-role">Applied AI Researcher <span aria-hidden="true">|</span> Ph.D. in Big Data</p>
+                    <p class="hero-affiliation">AI Convergence Lab</p>
+                    <dl class="hero-stats" aria-label="Years of experience">
+                        <div>
+                            <dt>Software development</dt>
+                            <dd><span class="stat-value">9+</span><span class="stat-unit">years</span></dd>
+                        </div>
+                        <div>
+                            <dt>AI &amp; big data</dt>
+                            <dd><span class="stat-value">5+</span><span class="stat-unit">years</span></dd>
+                        </div>
+                    </dl>
+                    <p class="hero-description">I build intelligent systems that connect research with real-world applications. My work spans computer vision, multimodal AI, and large-scale data systems.</p>
+                    <ul class="profile-interests" aria-label="Research areas">
+                        <li>Computer Vision</li>
+                        <li>Multimodal AI</li>
+                        <li>Big Data</li>
+                        <li>LLM</li>
+                        <li>VLM</li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#research">Explore my research</a>
+                        <a class="button button-secondary" href="https://scholar.google.com/citations?user=SwXjpwwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 9 9-5 9 5-9 5-9-5Zm4 3v5c3 2 7 2 10 0v-5M21 9v7"/></svg>Google Scholar<span class="sr-only"> (opens in a new tab)</span></a>
+                    </div>
+                    <div class="hero-socials" aria-label="Social profiles">
+                        <a href="https://github.com/SoengSaravit" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a><span aria-hidden="true"></span>
+                        <a href="https://www.linkedin.com/in/soeng-saravit/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>
+                        <p>Based in South Korea</p>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="images/saravit-1-min.jpg" alt="Saravit Soeng">
-                </div>
+                <figure class="profile">
+                    <div class="portrait-frame"><div class="portrait-crop"><img src="images/saravit-portrait.webp" width="706" height="860" alt="Saravit Soeng at his graduation from Chungbuk National University" fetchpriority="high"></div></div>
+                </figure>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="education">
-        <div class="container">
-            <div class="section-header">
-                <h2>Education</h2>
-                <p>My academic journey in Computer Science and Big Data</p>
-            </div>
-            <div class="education-grid">
-                <div class="edu-card">
-                    <h3>Ph.D. in Big Data</h3>
-                    <p class="institution">Chungbuk National University, South Korea</p>
-                    <p class="date">Mar 2022 – Feb 2026</p>
-                    <p class="dissertation"><strong>Dissertation:</strong> A Multimodal Framework for Real-Time Abnormal Human Action Detection Using Spatio-Temporal Modeling and Vision-Language Reasoning</p>
-                </div>
-                <div class="edu-card">
-                    <h3>M.S. in Big Data</h3>
-                    <p class="institution">Chungbuk National University, South Korea</p>
-                    <p class="date">Mar 2020 – Feb 2022</p>
-                    <p class="dissertation"><strong>Dissertation:</strong> An Implementation of IoT End-to-end Data Pipeline for Industrial Big Data Platform</p>
-                </div>
-                <div class="edu-card">
-                    <h3>B.S. in Computer Science</h3>
-                    <p class="institution">Royal University of Phnom Penh, Cambodia</p>
-                    <p class="date">Nov 2013 – May 2017</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Experience</h2>
-                <p>Professional journey in AI research and software development</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="exp-card current">
-                        <h3>Applied AI Researcher</h3>
-                        <p class="company">AI Convergence Lab, Chungbuk National University, South Korea</p>
-                        <p class="date">Mar 2026 – Present</p>
-                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;"><strong>Research Area:</strong> LLM, VLM, Computer Vision</p>
-                        <ul>
-                            <li>Conducted applied research on LLMs, VLMs, and advanced computer vision for intelligent information processing and enterprise AI applications</li>
-                            <li>Developed VLM-based receipt understanding pipelines for OCR, information extraction, and transaction analysis</li>
-                            <li>Built customizable RAG chatbot platforms with vector databases, conversational memory, and high-throughput vLLM serving</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="exp-card">
-                        <h3>Applied AI Researcher / Research Assistant</h3>
-                        <p class="company">Big Data Labs, Chungbuk National University, South Korea</p>
-                        <p class="date">Mar 2020 – Feb 2026</p>
-                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;"><strong>Research Area:</strong> Big Data, AI, IoT, Computer Vision</p>
-                        <ul>
-                            <li>Conduct research in AI, Big Data Analytics, Computer Vision, and IoT systems</li>
-                            <li>Design and develop AI-based applications and data-driven systems</li>
-                            <li>Implement deep learning and machine learning models for real-world applications</li>
-                            <li>Publish research findings in international journals and conferences</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="exp-card">
-                        <h3>IT Instructor / Software Developer</h3>
-                        <p class="company">Korea Software HRD Center, Cambodia</p>
-                        <p class="date">Mar 2017 – Feb 2020</p>
-                        <ul>
-                            <li>Delivered training in Java programming, Spring framework, and iOS Mobile Development</li>
-                            <li>Mentored student projects in web and mobile development</li>
-                            <li>Designed curriculum and training materials</li>
-                            <li>Developed web and mobile applications</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="research">
-        <div class="container">
-            <div class="section-header">
-                <h2>Research Projects</h2>
-                <p>Selected research work in AI and Big Data</p>
-            </div>
+        <section class="research-section section" id="research" aria-labelledby="research-title"><div class="container">
+            <div class="section-heading"><h2 id="research-title">Research</h2></div>
+            <div class="research-toolbar"><div class="research-filters" role="group" aria-label="Filter research projects" hidden><button type="button" class="filter-button is-active" data-filter="all" aria-pressed="true">All research</button><button type="button" class="filter-button" data-filter="vision" aria-pressed="false">Vision &amp; multimodal</button><button type="button" class="filter-button" data-filter="language" aria-pressed="false">Language models</button><button type="button" class="filter-button" data-filter="systems" aria-pressed="false">Data &amp; systems</button></div><p class="project-count" aria-live="polite" aria-atomic="true">6 projects</p></div>
             <div class="research-grid">
-                <div class="research-card">
-                    <h3><i class="fas fa-eye"></i> Computer Vision Applications</h3>
-                    <p>Intelligent surveillance systems using deep learning, pose estimation, and video-based action recognition. Automated solutions for fall detection, fight detection, and motorcycle helmet compliance monitoring.</p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-industry"></i> IoT-based Big Data Platform</h3>
-                    <p>Platform to collect, process, store, monitor, and analyze IoT-based sensor data for monitoring and analyzing manufacturing processes in factories.</p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-map-marker-alt"></i> Deep Learning Address Verification</h3>
-                    <p>System to verify company addresses from various countries using Google Geocoding and deep learning. Funded by Korea Food and Drug Administration.</p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-link"></i> Blockchain E-Voting System</h3>
-                    <p>Voting system using Hyperledger Fabric private blockchain for student council representative elections at Chungbuk National University.</p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-file-invoice"></i> VLM-Based Information Extraction on Korean Receipts</h3>
-                    <p>OCR and information extraction on Korean receipts using vision-language models (VLMs) to extract insights such as store details, transaction information, payment details, and product details.</p>
-                </div>
-                <div class="research-card">
-                    <h3><i class="fas fa-robot"></i> LLM-Based Chatbot Builder Platform</h3>
-                    <p>Customizable platform for building and deploying domain-specific LLM chatbots, using RAG with vector databases for document-based Q&amp;A and open-weight models served via vLLM, with multi-turn memory and RESTful APIs for web/mobile integration.</p>
+                <article class="research-card" data-category="vision">
+                    <div class="project-visual vision-visual" aria-hidden="true"><svg class="pose-diagram" viewBox="0 0 360 190"><defs><pattern id="vision-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="currentColor" stroke-opacity=".07"/></pattern></defs><rect width="360" height="190" fill="url(#vision-grid)" stroke="none"/><g fill="none" stroke="#315693" stroke-width="1.5"><path d="M115 33H99v124h16M245 33h16v124h-16" stroke-dasharray="4 4"/><circle cx="181" cy="41" r="12"/><path d="m178 57-10 39 28 21 15 43m-43-64-18 29-14 35m36-88-31 14-15 28m47-43 28 13 26-9"/></g><g fill="#25477a" stroke="#e6edf8" stroke-width="3"><circle cx="172" cy="72" r="5"/><circle cx="168" cy="96" r="5"/><circle cx="196" cy="117" r="5"/><circle cx="150" cy="125" r="5"/><circle cx="141" cy="86" r="5"/><circle cx="201" cy="84" r="5"/><circle cx="126" cy="114" r="5"/><circle cx="227" cy="75" r="5"/><circle cx="211" cy="160" r="5"/><circle cx="136" cy="160" r="5"/></g><path d="M20 176h320" stroke="#748fbc" stroke-opacity=".3"/></svg></div>
+                    <div class="project-body"><p class="project-category">Computer vision</p><h3>Human action recognition</h3><p>Pose estimation and video analysis for fall detection, fight detection, and helmet compliance.</p><ul class="project-tags" aria-label="Technologies"><li>Deep learning</li><li>Pose estimation</li><li>Video analysis</li></ul></div>
+                </article>
+                <article class="research-card" data-category="vision">
+                    <div class="project-visual receipt-visual" aria-hidden="true"><div class="receipt-diagram"><div class="receipt-paper"><span class="receipt-title">영수증 / RECEIPT</span><span class="receipt-rule"></span><span class="receipt-line"></span><span class="receipt-line short"></span><span class="receipt-highlight">결제 금액<span>₩</span></span><span class="receipt-line"></span><span class="receipt-line short"></span><span class="receipt-barcode"></span></div><div class="extraction-fields"><span><i></i>Store details</span><span><i></i>Transaction</span><span><i></i>Product data</span></div></div></div>
+                    <div class="project-body"><p class="project-category">Multimodal AI</p><h3>Korean receipt understanding</h3><p>Vision-language models to extract store, transaction, payment, and product data from Korean receipts.</p><ul class="project-tags" aria-label="Technologies"><li>Vision-language models</li><li>OCR</li><li>Extraction</li></ul></div>
+                </article>
+                <article class="research-card" data-category="language">
+                    <div class="project-visual language-visual" aria-hidden="true"><div class="rag-diagram"><div class="document-stack"><span></span><span></span><span></span></div><div class="diagram-connector"></div><div class="model-node"><svg viewBox="0 0 40 40"><path d="m20 3 15 9v16l-15 9-15-9V12L20 3Zm0 0v34M5 12l30 16M35 12 5 28"/></svg><span>LLM</span></div><div class="diagram-connector"></div><div class="chat-node"><span></span><span></span><span></span></div></div></div>
+                    <div class="project-body"><p class="project-category">Language models</p><h3>LLM chatbot platform</h3><p>Domain-specific chatbots with RAG, vector databases, conversational memory, and vLLM serving.</p><ul class="project-tags" aria-label="Technologies"><li>RAG</li><li>Vector databases</li><li>vLLM</li></ul></div>
+                </article>
+                <article class="research-card" data-category="systems">
+                    <div class="project-visual iot-visual" aria-hidden="true"><img class="systems-diagram" src="images/research-iot.svg" width="360" height="190" alt="" loading="lazy"></div>
+                    <div class="project-body"><p class="project-category">Big data &amp; IoT</p><h3>Industrial IoT data platform</h3><p>An end-to-end pipeline for collecting, processing, and analyzing manufacturing sensor data.</p><ul class="project-tags" aria-label="Research topics"><li>Data pipelines</li><li>Industrial IoT</li></ul></div></article>
+                <article class="research-card" data-category="systems">
+                    <div class="project-visual address-visual" aria-hidden="true"><img class="systems-diagram" src="images/research-address.svg" width="360" height="190" alt="" loading="lazy"></div>
+                    <div class="project-body"><p class="project-category">Applied deep learning</p><h3>International address verification</h3><p>Company address verification with Google Geocoding and deep learning, funded by Korea Food and Drug Administration.</p><ul class="project-tags" aria-label="Technologies"><li>Deep learning</li><li>Geocoding</li></ul></div></article>
+                <article class="research-card" data-category="systems">
+                    <div class="project-visual voting-visual" aria-hidden="true"><img class="systems-diagram" src="images/research-voting.svg" width="360" height="190" alt="" loading="lazy"></div>
+                    <div class="project-body"><p class="project-category">Distributed systems</p><h3>Blockchain e-voting</h3><p>Private blockchain voting for student council elections at Chungbuk National University.</p><ul class="project-tags" aria-label="Technologies"><li>Hyperledger Fabric</li><li>Blockchain</li></ul></div></article>
+            </div>
+        </div></section>
+
+        <section class="experience-section section" id="experience" aria-labelledby="experience-title"><div class="container experience-layout"><div class="section-heading section-heading-stacked"><h2 id="experience-title">Experience</h2></div><div class="experience-list">
+            <article class="experience-item"><div class="experience-meta"><p><time datetime="2026-03">Mar 2026</time> – Present</p></div><h3>Applied AI Researcher</h3><p class="organization">AI Convergence Lab · Chungbuk National University</p><p class="location">South Korea</p><ul><li>Conduct applied research in LLMs, VLMs, and computer vision for enterprise AI.</li><li>Develop VLM-based receipt understanding for OCR, information extraction, and transaction analysis.</li><li>Build RAG chatbot platforms with vector databases, conversational memory, and vLLM serving.</li></ul></article>
+            <article class="experience-item"><div class="experience-meta"><p><time datetime="2020-03">Mar 2020</time> – <time datetime="2026-02">Feb 2026</time></p></div><h3>Applied AI Researcher / Research Assistant</h3><p class="organization">Big Data Labs · Chungbuk National University</p><p class="location">South Korea</p><ul><li>Researched AI, big data analytics, computer vision, and IoT systems.</li><li>Developed data-driven applications and machine learning models.</li><li>Published research in international journals and conferences.</li></ul></article>
+            <article class="experience-item"><div class="experience-meta"><p><time datetime="2017-03">Mar 2017</time> – <time datetime="2020-02">Feb 2020</time></p></div><h3>IT Instructor / Software Developer</h3><p class="organization">Korea Software HRD Center</p><p class="location">Cambodia</p><ul><li>Taught Java, Spring, and iOS development; created curricula and training materials.</li><li>Mentored student projects and developed web and mobile applications.</li></ul></article>
+        </div></div></section>
+
+        <section class="education-section section" id="education" aria-labelledby="education-title">
+            <div class="container education-layout">
+                <div class="section-heading"><h2 id="education-title">Education</h2></div>
+                <div class="education-grid">
+                    <article class="education-card">
+                        <span class="education-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Zm4 3v6c3 3 9 3 12 0v-6M22 8v8"/></svg></span>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <h3>Ph.D. in Big Data</h3>
+                                <p class="education-date"><time datetime="2022-03">Mar 2022</time> – <time datetime="2026-02">Feb 2026</time></p>
+                            </div>
+                            <p class="organization">Chungbuk National University</p>
+                            <p class="location">South Korea</p>
+                            <div class="dissertation"><h4>Dissertation</h4><p>A Multimodal Framework for Real-Time Abnormal Human Action Detection Using Spatio-Temporal Modeling and Vision-Language Reasoning</p></div>
+                        </div>
+                    </article>
+                    <article class="education-card">
+                        <span class="education-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Zm4 3v6c3 3 9 3 12 0v-6M22 8v8"/></svg></span>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <h3>M.S. in Big Data</h3>
+                                <p class="education-date"><time datetime="2020-03">Mar 2020</time> – <time datetime="2022-02">Feb 2022</time></p>
+                            </div>
+                            <p class="organization">Chungbuk National University</p>
+                            <p class="location">South Korea</p>
+                            <div class="dissertation"><h4>Dissertation</h4><p>An Implementation of IoT End-to-end Data Pipeline for Industrial Big Data Platform</p></div>
+                        </div>
+                    </article>
+                    <article class="education-card">
+                        <span class="education-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Zm4 3v6c3 3 9 3 12 0v-6M22 8v8"/></svg></span>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <h3>B.S. in Computer Science</h3>
+                                <p class="education-date"><time datetime="2013-11">Nov 2013</time> – <time datetime="2017-05">May 2017</time></p>
+                            </div>
+                            <p class="organization">Royal University of Phnom Penh</p>
+                            <p class="location">Cambodia</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-    <section id="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technical Skills</h2>
-                <p>Technologies and tools I work with</p>
+        <section class="skills-section section" id="skills" aria-labelledby="skills-title">
+            <div class="container skills-layout">
+                <div class="section-heading"><h2 id="skills-title">Technical skills</h2></div>
+                <dl class="skills-list">
+                    <div>
+                        <dt>AI &amp; data science</dt>
+                        <dd>PyTorch, TensorFlow, Scikit-learn, OpenCV, Hugging Face Transformers</dd>
+                    </div>
+                    <div>
+                        <dt>Languages</dt>
+                        <dd>Python, Java, Swift, Go, JavaScript, R, C / C++, C#</dd>
+                    </div>
+                    <div>
+                        <dt>Big data</dt>
+                        <dd>Hadoop, Spark, Storm, Kafka, ZooKeeper, NiFi</dd>
+                    </div>
+                    <div>
+                        <dt>Web &amp; mobile</dt>
+                        <dd>Flask, Node.js, Spring, Laravel, React, iOS, Android</dd>
+                    </div>
+                    <div>
+                        <dt>Databases &amp; tooling</dt>
+                        <dd>MongoDB, MySQL, PostgreSQL, SQL Server, Vector databases, Docker, Git</dd>
+                    </div>
+                </dl>
             </div>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Swift</span>
-                        <span class="skill-tag">GoLang</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">C/C++</span>
-                        <span class="skill-tag">C#</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI & Data Science</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Scikit-learn</span>
-                        <span class="skill-tag">OpenCV</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">Hugging Face Transformers</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Big Data Framework</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Hadoop</span>
-                        <span class="skill-tag">Spark</span>
-                        <span class="skill-tag">Storm</span>
-                        <span class="skill-tag">Kafka</span>
-                        <span class="skill-tag">ZooKeeper</span>
-                        <span class="skill-tag">NiFi</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-globe"></i> Web Framework</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Flask</span>
-                        <span class="skill-tag">NodeJS</span>
-                        <span class="skill-tag">Spring</span>
-                        <span class="skill-tag">Laravel</span>
-                        <span class="skill-tag">React</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">iOS</span>
-                        <span class="skill-tag">Android</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Database & Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">SQL Server</span>
-                        <span class="skill-tag">Vector Database</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Git</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="contact-section container" id="contact" aria-labelledby="contact-title"><div class="contact-panel"><div><p class="eyebrow">Good work starts with a conversation</p><h2 id="contact-title">Let’s explore<br>what’s possible.</h2><p>Have a research idea, an interesting problem,<br class="desktop-break"> or a potential collaboration? Let’s connect.</p></div><div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/soeng-saravit/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn<span class="sr-only"> (opens in a new tab)</span></a><a class="contact-github" href="https://github.com/SoengSaravit" target="_blank" rel="noopener noreferrer">Explore my GitHub<span class="sr-only"> (opens in a new tab)</span></a></div></div></section>
+    </main>
 
-    <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear());</script> Saravit Soeng. All rights reserved. | Built with <i class="fas fa-heart" style="color: var(--accent);"></i></p>
-    </footer>
-
-    <script src="js/portfolio.js"></script>
+    <footer class="site-footer container"><a class="logo" href="#hero">Saravit<span class="logo-period">.</span></a><p>© <span id="year">2026</span> Saravit Soeng.</p><div class="footer-links"><a href="https://twitter.com/saravit_soeng" target="_blank" rel="noopener noreferrer">X / Twitter<span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.facebook.com/S.Saravit" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in a new tab)</span></a><a href="#hero">Back to top</a></div></footer>
 </body>
 </html>
