@@ -21,7 +21,9 @@ Open [http://127.0.0.1:4173](http://127.0.0.1:4173). No install or build step is
 - `js/portfolio.js`: mobile navigation, active section tracking, research filters, and footer year.
 - `images/saravit-portrait.webp`: optimized portrait; the original photos remain in `images/`.
 
-Research illustrations use inline SVG and CSS. The page uses Google Fonts with sans-serif fallbacks and no JavaScript libraries. Content and navigation remain available when JavaScript is disabled.
+Research illustrations use SVG and CSS. The page uses Google Fonts with sans-serif fallbacks and no JavaScript libraries. Content and navigation remain available when JavaScript is disabled.
+
+Refreshing the page starts at the hero section. Opening a direct section link still follows its anchor, and normal section navigation uses browser history.
 
 CSS and JavaScript URLs in `index.html` include `?v=...` versions. Update these values when publishing stylesheet or script changes so returning visitors receive the latest files.
 
